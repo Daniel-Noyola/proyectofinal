@@ -2,6 +2,7 @@
 namespace Includes;
 use Dotenv\Dotenv;
 
+// Configura las variables de entorno
 require __DIR__ . '/../vendor/autoload.php';
 $dotenv = Dotenv::createImmutable(__DIR__);
 $dotenv->safeLoad();
@@ -16,4 +17,5 @@ define('DATABASE_FILE', __DIR__ . '/database.php');
 define('CSS_FILE', __DIR__ . '../src/css/app.css');
 define('HELPERS_FILE', __DIR__ . '/helpers.php');
 
+// Importa las funciones de ayuda
 require HELPERS_FILE;

@@ -1,5 +1,2 @@
 <?php 
-function tryon() : string
-{
-    return 'Hola';
-}
+// Funciones de ayuda

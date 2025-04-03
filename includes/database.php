@@ -1,4 +1,6 @@
 <?php 
+require_once 'app.php';
+
 /**
  * Funcion para conectarte a la base de datos
  */

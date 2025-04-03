@@ -1,5 +1,6 @@
 <?php 
-require_once './includes/app.php';
+// Este es el archivo principal del proyecto, el cual se muestra al entrar al sitio
+require './includes/app.php';
 require DATABASE_FILE;
 
 $db = connectDB();
