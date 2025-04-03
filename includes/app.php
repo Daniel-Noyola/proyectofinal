@@ -1,7 +1,14 @@
 <?php
+namespace Includes;
+use Dotenv\Dotenv;
+
+require __DIR__ . '/../vendor/autoload.php';
+$dotenv = Dotenv::createImmutable(__DIR__);
+$dotenv->safeLoad();
+
+
 // Directorio de archivos y carpetas
 // define('BASE_URL', '/proyectofinal'); 
-
 define('IMAGES_PATH', __DIR__ . '../media/images');
 define('ICONS_PATH', __DIR__ . '../media/icons');
 
